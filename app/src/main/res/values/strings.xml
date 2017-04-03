@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mission</string>
+    <string name="coffee_please">Coffee Please</string>
+    <string name="menu_coffee">Coffee Please</string>
+    <string name="menu_action_Coffee_Please">Coffee Please</string>
+    <string name="main_screen_title">Coffee Please</string>
+    <string name="robot_icon">robot_icon</string>
+    <string name="offer">Everyday we produce good, honest, fresh coffee and food.</string>
+    <string name="coffee_coffee">coffee</string>
+    <string name="divider" />
+    <string name="drink_hot_ice"><![CDATA[Hot & Ice]]></string>
+    <string name="drink" />
+    <string name="three_square_meals">breakfast</string>
+    <string name="textview"><![CDATA[Bread & Sandwich]]></string>
+    <string name="text_food"><![CDATA[Bread & Sandwich]]></string>
+    <string name="action_label">Coffee Please</string>
+</resources>

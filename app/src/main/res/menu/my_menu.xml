@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <app:item
+        android:id="@+id/main_screen"
+        android:title="@string/menu_action_Coffee_Please"
+        app:showAsAction="never"
+         />
+
+</menu >

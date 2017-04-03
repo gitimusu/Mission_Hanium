@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.mission.IntroActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="119dp"
+        android:contentDescription="@android:string/untitled"
+        app:srcCompat="@drawable/majes" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription=" "
+        android:text="welcome"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/order_coffee"
+        android:layout_width="360dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="128dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/coffee_please"
+        android:textColor="#B6885B"
+        android:textSize="20sp"
+        tools:ignore="TextViewEdits" />
+
+
+</LinearLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="13dp"
+        android:background="@android:color/background_light"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="30dp"
+        android:text="@string/action_label"
+        android:textColor="#E6252525"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        tools:targetApi="jelly_bean" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/background_light"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        tools:ignore="UseCompoundDrawables">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/robot_icon"
+            android:visibility="visible"
+            app:srcCompat="@drawable/robot2_icon" />
+
+        <TextView
+            android:layout_width="246dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="17dp"
+            android:fontFamily="Roboto-Regular"
+            android:text="@string/offer"
+            android:textColor="#D9252525"
+            android:textSize="15sp"
+            tools:targetApi="jelly_bean" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="474.5dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="-57dp"
+            android:layout_marginStart="-57dp"
+            android:contentDescription="@string/coffee_please"
+            android:scaleType="fitXY"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/coffee_two" />
+
+        <TextView
+
+            android:layout_width="142.6dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="110.7dp"
+            android:layout_marginStart="110.7dp"
+            android:layout_marginTop="90dp"
+            android:fontFamily="RobotoCondensed-Bold"
+            android:lineSpacingExtra="28dp"
+            android:text="@string/coffee_coffee"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:targetApi="jelly_bean" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="1.7dp"
+            android:layout_marginLeft="136.7dp"
+            android:layout_marginStart="136.7dp"
+            android:layout_marginTop="126.6dp"
+            android:background="@android:color/background_light"
+            android:contentDescription="@string/divider"
+            android:visibility="visible"
+            app:srcCompat="@drawable/divider_1" />
+
+        <TextView
+            android:layout_width="61dp"
+            android:layout_height="18dp"
+            android:layout_marginBottom="107.4dp"
+            android:layout_marginLeft="150.2dp"
+            android:layout_marginStart="150.2dp"
+            android:layout_marginTop="130.6dp"
+            android:contentDescription="@string/drink"
+            android:fontFamily="Roboto-Regular"
+            android:lineSpacingExtra="18dp"
+            android:text="@string/drink_hot_ice"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            tools:targetApi="jelly_bean" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/menu_coffee"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/breakfast2" />
+
+        <TextView
+            android:layout_width="142.6dp"
+            android:layout_height="28dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="108.7dp"
+            android:layout_marginStart="108.7dp"
+            android:layout_marginTop="140dp"
+            android:contentDescription="@android:string/ok"
+            android:fontFamily="RobotoCondensed-Bold"
+            android:lineSpacingExtra="28dp"
+            android:text="@string/three_square_meals"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:targetApi="jelly_bean" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="1.7dp"
+            android:layout_marginLeft="136.7dp"
+            android:layout_marginStart="136.7dp"
+            android:layout_marginTop="180dp"
+            android:background="@android:color/background_light"
+            android:contentDescription="@string/divider"
+            android:visibility="visible"
+            app:srcCompat="@drawable/divider_1" />
+
+        <TextView
+            android:layout_width="126dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="117.7dp"
+            android:layout_marginStart="117.7dp"
+            android:layout_marginTop="200dp"
+            android:contentDescription="@string/drink"
+            android:fontFamily="Roboto-Regular"
+            android:lineSpacingExtra="18dp"
+            android:text="@string/text_food"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            tools:targetApi="jelly_bean" />
+
+    </FrameLayout>
+
+</LinearLayout>
+
